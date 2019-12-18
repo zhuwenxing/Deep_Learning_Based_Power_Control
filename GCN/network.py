@@ -19,9 +19,9 @@ class ConvLayer(nn.Module):
 
 
 class inter_conv_net(nn.Module):
-# 有一个很重要的问题： 在tensorflow中，卷积操作的输入是 batch, in_height, in_weight, channel
+# 有一个很重要的问题： 在tensorflow中，卷积操作的输入是 batch, in_height, in_width, channel
 
-# 但是在Pytorch中，输入是batch, channel,in_height, in_weight
+# 但是在Pytorch中，输入是batch, channel,in_height, in_width
 
     def __init__(self):
         super(inter_conv_net, self).__init__()
