@@ -52,3 +52,5 @@ requirement：
 * scipy==1.3.1
 
 虽然可以使用requirements.txt安装。
+
+目前将 [Globecom2019](https://github.com/yshenaw/Globecom2019) 这份TensorFlow的代码修改为了PyTorch版本。运行后结果和原始代码基本是一致的。其他网络只给出了网络结构的代码，后序会继续Update。其实这份代码的主要关注点就是network.py和loss.py的。
